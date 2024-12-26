@@ -1,0 +1,97 @@
+/* 공통 */
+.blind {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+}
+.inner {
+	position: relative;
+	max-width: 1408px;
+	min-width: 1230px;
+	padding: 0 104px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+}
+#header {
+	.logo {
+		a {
+			background-image: url(../images/sp_pc.png);
+			background-size: 328px 205px;
+		}
+	}
+}
+.site_item {
+	.arrow-ic {
+		background-image: url(../images/sp_pc.png);
+		background-size: 328px 205px;
+	}
+}
+.sc_search {
+	.search-ic-area {
+		.search-ic {
+			background-image: url(../images/sp_pc.png);
+			background-size: 328px 205px;
+		}
+	}
+}
+.sc_team {
+	.team_area {
+		.team_titlebox {
+			.team_num {
+				&::before {
+					background-image: url(../images/sp_pc.png);
+					background-size: 328px 205px;
+				}
+			}
+		}
+	}
+}
+.control {
+	.button-next {
+		background-image: url(../images/sp_pc.png);
+		background-size: 328px 205px;
+	}
+	.button-prev {
+		background-image: url(../images/sp_pc.png);
+		background-size: 328px 205px;
+	}
+}
+.apply_container {
+	.link_apply {
+		&::after {
+			background-image: url(../images/sp_pc.png);
+			background-size: 328px 205px;
+		}
+	}
+}
+#footer {
+	.footer_top {
+		.footer_right {
+			.related_btn {
+				&::before {
+					background-image: url(../images/sp_pc.png);
+					background-size: 328px 205px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1229px) {
+	.group_navibtn {
+		.navi_btn {
+			background-image: url(../images/sp_mo.png);
+			background-size: 195px 181px;
+		}
+	}
+	#header {
+		.logo {
+			a {
+				background-image: url(../images/sp_mo.png);
+				background-size: 195px 181px;
+			}
+		}
+	}
+}

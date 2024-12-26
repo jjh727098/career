@@ -1,0 +1,112 @@
+$color_1: inherit;
+$color_2: #000;
+
+/* 초기화 + 세팅 + 변수 */
+/* font */
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	color: $color_1;
+	border: 0;
+	box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	overflow: auto;
+}
+body {
+	overflow: auto;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+picture {
+	display: block;
+	max-width: 100%;
+}
+video {
+	display: block;
+	max-width: 100%;
+}
+canvas {
+	display: block;
+	max-width: 100%;
+}
+svg {
+	display: block;
+	max-width: 100%;
+}
+button {
+	background: none;
+	border: 0;
+	cursor: pointer;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+a {
+	color: $color_1;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset {
+	border: 0;
+}
+input {
+	border: 0;
+	border: none;
+	background: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+ul {
+	list-style: none;
+}
+select {
+	border: 0;
+	outline: none;
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
