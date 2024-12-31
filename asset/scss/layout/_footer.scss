@@ -1,12 +1,6 @@
-$color_1: #000;
-$color_2: #909090;
-$background-color_1: #f2f2f2;
-$background-color_2: #000;
-$background-color_3: #fff;
-
 #footer {
 	position: relative;
-	background-color: $background-color_1;
+	background-color: #f2f2f2;
 	z-index: 1010;
 	.inner {
 		position: static;
@@ -15,7 +9,7 @@ $background-color_3: #fff;
 		flex-wrap: wrap;
 		max-width: 1920px;
 		padding: 25px 104px 25px 98px;
-		background-color: $background-color_1;
+		background-color: #f2f2f2;
 	}
 	.footer_top {
 		display: flex;
@@ -27,7 +21,7 @@ $background-color_3: #fff;
 				font-size: 18px;
 				line-height: 32px;
 				letter-spacing: -0.32px;
-				color: $color_1;
+				color: #000;
 				a {
 					display: block;
 				}
@@ -40,7 +34,7 @@ $background-color_3: #fff;
 						font-weight: 700;
 						line-height: 32px;
 						letter-spacing: -0.28px;
-						color: $color_2;
+						color: #909090;
 					}
 				}
 			}
@@ -52,7 +46,7 @@ $background-color_3: #fff;
 				width: 280px;
 				line-height: 42px;
 				text-align: left;
-				background-color: $background-color_1;
+				background-color:#f2f2f2;
 				&::before {
 					content: "";
 					position: absolute;
@@ -70,7 +64,7 @@ $background-color_3: #fff;
 					left: 0;
 					right: 0;
 					height: 1px;
-					background-color: $background-color_2;
+					background-color: #000;
 				}
 			}
 			.relate_list {
@@ -79,7 +73,7 @@ $background-color_3: #fff;
 				bottom: 42px;
 				left: 0;
 				right: 0;
-				background-color: $background-color_3;
+				background-color: #fff;
 				z-index: 1000;
 				opacity: 0;
 				visibility: hidden;
@@ -96,20 +90,20 @@ $background-color_3: #fff;
 			.relate_list {
 				opacity: 1;
 				visibility: visible;
-				background-color: $background-color_3;
+				background-color: #fff;
 				padding: 0 12px;
 				border-bottom: none;
 			}
 			.related_btn {
 				opacity: 1;
 				visibility: visible;
-				background-color: $background-color_3;
+				background-color: #fff;
 				padding: 0 12px;
 				border-bottom: none;
 				&::after {
 					opacity: 1;
 					visibility: visible;
-					background-color: $background-color_3;
+					background-color: #fff;
 					padding: 0 12px;
 					border-bottom: none;
 				}
@@ -158,7 +152,7 @@ $background-color_3: #fff;
 					font-size: 14px;
 					line-height: 22px;
 					letter-spacing: -0.28px;
-					color: $color_2;
+					color: #909090;;
 				}
 			}
 		}

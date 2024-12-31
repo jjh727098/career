@@ -15,10 +15,10 @@ const peopleSlide = new Swiper('.people_slide',{
 	},
     breakpoints: {
         768: {
-          slidesPerView: 1.1,  //브라우저가 768보다 클 때
+          slidesPerView: 1.1,  
         },
         320: {
-          slidesPerView: 1,  //브라우저가 320보다 클 때
+          slidesPerView: 1,  
         },
     }
 });
@@ -31,10 +31,10 @@ const cardSlide = new Swiper('.card_slide',{
 	},
     breakpoints: {
         768: {
-          slidesPerView: 3,  //브라우저가 768보다 클 때
+          slidesPerView: 3,  
         },
         320: {
-          slidesPerView: 1,  //브라우저가 320보다 클 때
+          slidesPerView: 1,
         },
     }
 });
