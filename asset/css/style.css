@@ -390,6 +390,11 @@ textarea {
   width: 100% !important;
 }
 
+@media (max-width: 768px) {
+  #footer .footer_top .footer_right .related_btn::after {
+    background-color: #b4b4b4;
+  }
+}
 #header {
   position: fixed;
   top: 0;
