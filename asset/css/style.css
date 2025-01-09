@@ -457,7 +457,7 @@ textarea {
   background-size: 195px 181px;
   background-position: -136px -49px;
   width: 10px;
-  height: 6px;
+  height: 10px;
 }
 #header .logo {
   display: -webkit-box;
@@ -743,9 +743,8 @@ textarea {
 
 @media (max-width: 1229px) {
   .group_navibtn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
+    margin: auto 0;
   }
   #header .gnb {
     display: none;
@@ -1097,12 +1096,11 @@ textarea {
 .sc_team .team_list {
   margin-top: 70px;
 }
+.sc_team .team_list .team_item:hover {
+  background-color: #ebebeb;
+}
 .sc_team .team_list .team_item .link_team {
   display: block;
-  color: #000;
-}
-.sc_team .team_list .team_item .link_team:hover {
-  background-color: #ebebeb;
   color: #000;
 }
 .sc_team .team_area {

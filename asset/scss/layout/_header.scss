@@ -69,7 +69,7 @@
 		background-size: 195px 181px;
 		background-position: -136px -49px;
 		width: 10px;
-		height: 6px;
+		height: 10px;
 	}
 	.logo {
 		display: flex;
@@ -354,7 +354,8 @@
 
 @media (max-width: 1229px) {
 	.group_navibtn {
-		display: flex;
+		display: block;
+		margin: auto 0;
 	}
 	#header {
 		.gnb {

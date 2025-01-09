@@ -286,13 +286,12 @@
 	.team_list {
 		margin-top: 70px;
 		.team_item {
+			&:hover{
+				background-color:#ebebeb;
+			}
 			.link_team {
 				display: block;
 				color: #000;;
-				&:hover {
-					background-color: $background-color_3;
-					color: #000;;
-				}
 			}
 		}
 	}
